@@ -1,0 +1,16 @@
+{
+
+  "private": true,
+  "scripts": {
+    "lint": "yarn run eslint --ext .js app/javascript"
+  },
+  "dependencies": {
+    "@rails/webpacker": "3.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "webpack-dev-server": "2.11.2"
+  }
+}
